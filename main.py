@@ -19,9 +19,6 @@ Wхен И wас 8...
 # найти все числа
 numbers = re.findall(r'\d+', speech)
 
-# найти все числа
-numbers = re.findall(r'\d+', speech)
-
 # вывести число + слово + кириллица
 for number in numbers:
     word_en = num2words(int(number))
